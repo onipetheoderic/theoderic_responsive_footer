@@ -1,0 +1,8 @@
+{
+  "short_name": "theoderic_responsive_footer",
+  "name": "theoderic_responsive_footer",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
