@@ -6,7 +6,17 @@ export default class App extends Component {
   render () {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+      
+        <ExampleComponent>
+        <a>Home</a>
+         <a>Home</a>
+          <a>Home</a>
+           <a>Home</a>
+           <a>Home</a>
+           <a>Home</a>
+           <a>Home</a>
+           <a>Home</a>
+        </ExampleComponent>
       </div>
     )
   }

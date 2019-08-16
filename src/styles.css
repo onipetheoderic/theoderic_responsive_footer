@@ -1,8 +1,52 @@
 /* add css styles here (optional) */
 
 .test {
-  display: inline-block;
-  margin: 2em auto;
-  border: 2px solid #000;
-  font-size: 2em;
+	display: inline-block;
+	margin: 2em auto;
+	border: 2px solid #000;
+	font-size: 2em;
+}
+
+.overall {
+	background-color: #00003c;
+	color: #fff;
+	position: relative;
+	font-size: 15px;
+	line-height: 1.65;
+	overflow: hidden;
+	bottom: 0;
+}
+
+.footer_wrap {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 15px 50px;
+    position: relative;
+    width: 1290px;
+}
+
+
+.col1 {
+	display: inline-block;
+	padding-top: 1.1em;
+	float: left;
+	margin-right: 5%;
+	width: 25%;
+}
+.col2 {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 30px;
+    padding-top: 1.4em;
+    padding-bottom: 70px;
+    line-height: .9;
+    float: left;
+    margin-right: 5%;
+	width: 25%;
+}
+.col3 {
+	float: left;
+	margin-bottom: 30px;
+	padding: 16px 25px 0 0;
+	width: 35%;
 }

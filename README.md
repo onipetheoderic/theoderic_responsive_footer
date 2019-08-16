@@ -15,15 +15,28 @@ npm install --save theoderic_responsive_footer
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'theoderic_responsive_footer'
+import ExampleComponent from 'theoderic_responsive_footer'
 
-class Example extends Component {
+export default class App extends Component {
   render () {
     return (
-      <MyComponent />
+      <div>
+      
+        <ExampleComponent>
+			<a>Home</a>
+			<a>Home</a>
+			<a>Home</a>
+			<a>Home</a>
+			<a>Home</a>
+			<a>Home</a>
+			<a>Home</a>
+			<a>Home</a>
+        </ExampleComponent>
+      </div>
     )
   }
 }
+
 ```
 
 ## License
